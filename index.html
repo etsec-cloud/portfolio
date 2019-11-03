@@ -14,22 +14,79 @@
 
 <body>
     <!--Nav Barre-->
-    <nav>
+    <nav id="1">
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
-            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#1" role="tab"
                 aria-controls="nav-home" aria-selected="true">Accueil</a>
-            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#2" role="tab"
                 aria-controls="nav-profile" aria-selected="false">Expérience</a>
-            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#3" role="tab"
                 aria-controls="nav-contact" aria-selected="false">Projets</a>
-            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#4" role="tab"
                 aria-controls="nav-contact" aria-selected="false">Contact</a>
         </div>
     </nav>
 
 
     <!-- Qui suis-je ?-->
+    <div class="jumbotron" id="2">
+        <h1 class="display-4">Etienne Secondini</h1>
+        <p class="lead">Étudiant en développement web à l'IIM</p>
+        <hr class="my-4">
+        <p>Voici mon parcours et mes projets.</p>
 
+    </div>
+
+
+    <!--Parcours-->
+    <div class="container py-5" id="3">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/ipsa.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">2 ans en prépa en école d'ingénieur</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/iim.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">2 ans à l'institut de l'internet et du multimédia</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/prox.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">2 mois de stage à Proximity BBDO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projet-->
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Site sur un personnage</h5>
+            <p class="card-text">Projet de fin d'année.</p>
+            <a href="https://etienne-secondini.tk/" target="_blank" class="btn btn-primary">Cliquez ici</a>
+        </div>
+    </div>
+
+    <!-- Contact-->
+    <div class="alert alert-light" role="alert">
+        Lien vers mon github <a href="#" class="alert-link">ici</a>
+        Lien vers mon LinkedIn,<a href="#" class="alert-link">ici</a>
+        <a href="mailto:etienne.secondini@edu.devinci.fr">Contactez-moi</a>
+    </div>
 
 </body>
 
